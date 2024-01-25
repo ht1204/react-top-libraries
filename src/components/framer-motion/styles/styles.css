@@ -1,0 +1,186 @@
+.example-container div {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  background: #ff008c;
+  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: #ff008c;
+  border-radius: 10px;
+  width: 5%;
+  height: 5%;
+  top: 30%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.window {
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  position: absolute;
+  left: 40%;
+  top: 58%;
+}
+
+nav {
+  background: #fdfdfd;
+  padding: 5px 5px 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #eeeeee;
+  height: 44px;
+}
+
+.tabs {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  flex-grow: 1;
+  user-select: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  background: white;
+  cursor: pointer;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  user-select: none;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--accent);
+}
+
+li.selected {
+  background: #eee;
+}
+
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}
+
+.add-item {
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  align-self: center;
+}
+
+.add-item:disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+.container {
+  perspective: 800px;
+  width: 200px;
+  height: 200px;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.6;
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+  background-color: #ee4444;
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: #ffcc00;
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+  background-color: #ff0055;
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: #8855ff;
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: #0099ff;
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: #22cc88;
+}
