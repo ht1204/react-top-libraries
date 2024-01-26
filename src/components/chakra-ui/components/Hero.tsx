@@ -55,7 +55,7 @@ export default function Hero({
         >
           {subtitle}
         </Heading>
-        <Link href={ctaLink}>
+        <Link href={ctaLink} target="_blank">
           <Button borderRadius="8px" py="4" px="4" lineHeight="1" size="md">
             {ctaText}
           </Button>
@@ -85,5 +85,5 @@ Hero.defaultProps = {
     "This is the subheader section where you describe the basic benefits of your product",
   image: "https://source.unsplash.com/collection/404339/800x600",
   ctaText: "Create your account now",
-  ctaLink: "/signup"
+  ctaLink: "/ant-design"
 };
