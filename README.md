@@ -18,8 +18,7 @@ A demo project for PGD Latam
 # How to Run
 - At least you must have node `v18`.
 - Clone the project.
-- Install: `npm i`
-- Write the command: `npm config set legacy-peer-deps true` for avoiding conflicts.
+- Install writing command: `npm run install-deps`
 - Run: `npm run start`
 
 

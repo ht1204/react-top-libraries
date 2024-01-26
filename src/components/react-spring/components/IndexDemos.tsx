@@ -63,7 +63,7 @@ function reducer(state = initialState, action: ActionType) {
 export const IndexDemos = () => {
     const [compState, dispatch] = useReducer(reducer, initialState);
 
-    const handleAnimation = (event: any, animationType: string) => {
+    const handleAnimation = (_event: any, animationType: string) => {
         dispatch({
             type: 'reset',
             enable: false
