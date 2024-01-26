@@ -70,7 +70,7 @@ export const OtherLibsPage = () => {
                     paddingTop: '5rem'
                 }}
             >
-                There a lot of libraries, feel free to share any library as you wish.
+                There is a lot of libraries, feel free to share any library as you wish.
                 <br />
                 Experiment forking this repo and enjoy!
             </Typo>
