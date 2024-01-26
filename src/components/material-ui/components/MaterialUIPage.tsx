@@ -19,21 +19,8 @@ export function MaterialUIPage(): JSX.Element {
             <AppToolbar/>
             <Toolbar />
         </Box>
-        <Typography sx={{ mb: 2, my: 2 }} variant="body2">
-          Material UI Autocomplete Combobox
-        </Typography>
-
-        <Combobox />
         <Box sx={{ 
-          marginTop: '1rem'
-        }}>
-          <CollapsibleTable />
-        </Box>
-        <Box sx={{ 
-          position: 'absolute', 
-          left: '40%', 
-          top: '90%', 
-          p: 1
+            my: 2
         }}>
 
           <Typography variant="body2" sx={{ display: 'inline' }}>
@@ -48,6 +35,16 @@ export function MaterialUIPage(): JSX.Element {
             MaterialUI Documentation
           </Link>
        </Box>
+        <Typography sx={{ mb: 2, my: 2 }} variant="body2">
+          Material UI Autocomplete Combobox
+        </Typography>
+
+        <Combobox />
+        <Box sx={{ 
+          marginTop: '1rem'
+        }}>
+          <CollapsibleTable />
+        </Box>
       </Container>
     </ThemeProvider>
   );
