@@ -32,7 +32,7 @@ export function MaterialUIPage(): JSX.Element {
         <Box sx={{ 
           position: 'absolute', 
           left: '40%', 
-          top: '110%', 
+          top: '90%', 
           p: 1
         }}>
 
@@ -45,7 +45,7 @@ export function MaterialUIPage(): JSX.Element {
             rel="noopener noreferrer"
             sx={{ textDecoration: 'underline' }}
           >
-            https://mui.com/material-ui/getting-started/
+            MaterialUI Documentation
           </Link>
        </Box>
       </Container>
