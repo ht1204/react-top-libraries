@@ -94,10 +94,15 @@ const CollapsibleTable = () => {
             <TableContainer 
                 style={{
                     width: '800px',
-                    height: '400px'
+                    height: '400px',
                 }}
             >
-                <Table aria-label="collapsible table">
+                <Table 
+                    aria-label="collapsible table"
+                    style={{
+                        border: '1px solid rgba(224, 224, 224, 1)',
+                    }}
+                >
                     <TableHead>
                         <TableRow>
                             <TableCell />
