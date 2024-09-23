@@ -1,0 +1,39 @@
+body {
+    font-family: Lato;
+}
+
+table {
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr td:nth-of-type(2) {
+    text-align: center;
+}
+
+button {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.list-item {
+    position: relative;
+}
