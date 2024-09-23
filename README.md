@@ -1,18 +1,18 @@
 # React Top Libraries
-A collection of relevant libraries for considering to handle in react.
+A collection of relevant libraries for considering to handle in react. \
 A demo project for PGD Latam
 
 
 # Tech Notes
 - A React + TS Vite Project
-- Contains libraries like: 
+- Contains libraries like:
   * Material UI
   * Chakra UI
   * Ant Design
   * React Spring
   * Framer Motion
   * GSAP
-  
+
 - Feel free to adapt the project and more useful libraries.
 
 # How to Run
