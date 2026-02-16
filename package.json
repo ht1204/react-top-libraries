@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "install-deps": "npm config set legacy-peer-deps true && npm i",
     "dev": "vite",

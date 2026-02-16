@@ -16,10 +16,18 @@ A demo project for PGD Latam
 - Feel free to adapt the project and more useful libraries.
 
 # How to Run
-- At least you must have node `v18`.
+- At least you must have node `v22.x` (Node.js 22 or higher).
 - Clone the project.
 - Install writing command: `npm run install-deps`
-- Run: `npm run start`
+- Run: `npm run dev`
+
+## Deployment
+This project is ready to deploy on Vercel with Node.js 22.x:
+- ✅ Node.js version configured in `package.json`
+- ✅ Vercel configuration in `vercel.json`
+- ✅ Optimized build settings
+
+For detailed deployment instructions, see [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)
 
 
 ## Motivations
